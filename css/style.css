@@ -1,0 +1,112 @@
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 60px; } }
+
+.sidebar {
+  border: solid 2px #985CAD;
+  padding: 10px;
+  margin-top: 15px; }
+  .sidebar a {
+    text-decoration: none;
+    color: black; }
+  @media screen and (max-width: 1400px) {
+    .sidebar {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 920px; } }
+  @media screen and (min-width: 1401px) {
+    .sidebar {
+      float: left;
+      width: 12.5%;
+      margin-left: 10px; } }
+
+.annonce {
+  margin: 10px;
+  max-height: 190px;
+  overflow: hidden; }
+
+img {
+  max-width: 100%; }
+
+input {
+  margin: 5px; }
+  input.input-number {
+    width: 4em; }
+
+select.select-tri {
+  margin: 18px; }
+
+.desc-annonce {
+  height: 80px;
+  width: 95%; }
+
+.row {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.btn.btn-back {
+  float: left;
+  margin-left: 15%;
+  margin-top: 25px; }
+
+.dropdown {
+  position: fixed;
+  right: 10px;
+  top: 20px;
+  z-index: 2000; }
+  .dropdown > .dropdown-menu {
+    position: fixed;
+    top: 45px;
+    right: 10px;
+    background-color: #985CAD; }
+    @media screen and (max-width: 480px) {
+      .dropdown > .dropdown-menu {
+        display: none; } }
+    .dropdown > .dropdown-menu li {
+      list-style: none;
+      margin: 0; }
+      .dropdown > .dropdown-menu li a {
+        padding: 5px 20px;
+        text-decoration: none;
+        color: black;
+        display: block; }
+        .dropdown > .dropdown-menu li a:hover, .dropdown > .dropdown-menu li a:focus {
+          color: white; }
+    .dropdown > .dropdown-menu:hover, .dropdown > .dropdown-menu:focus {
+      display: block; }
+  .dropdown > a.dropdown-title {
+    cursor: pointer;
+    background-color: #490063;
+    border: 2px solid #985CAD;
+    color: white;
+    padding: 10px; }
+    .dropdown > a.dropdown-title:hover, .dropdown > a.dropdown-title:focus {
+      background-color: #985CAD;
+      padding: 10px; }
+      .dropdown > a.dropdown-title:hover + ul.dropdown-menu, .dropdown > a.dropdown-title:focus + ul.dropdown-menu {
+        display: block; }
+  @media screen and (min-width: 479px) {
+    .dropdown {
+      display: none; } }
+
+@media screen and (max-width: 480px) {
+  .hide-sm {
+    display: none !important; } }
+
+@media screen and (max-width: 480px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 100%; }
+    .header > .title {
+      font-size: 1.7rem; }
+    .header > .subtitle {
+      display: none; } }
+
+.jumbotron-textarea {
+  width: 100%;
+  height: 3em; }
+
+/*# sourceMappingURL=style.css.map */

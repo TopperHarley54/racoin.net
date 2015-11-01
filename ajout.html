@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Racoin</title>
+  <link rel="stylesheet" href="css/2sec.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <a class="title" href="#">Racoin</a>
+        <a class="subtitle">Le roi de la petite annonce ! :D</a>
+    </div>
+
+
+    <div class="container">
+      <div class="dropdown">
+          <a class="dropdown-title">Menu</a>
+          <ul class="dropdown-menu">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="recherche.html">Recherche</a></li>
+              <li><a href="ajout.html">Déposer une annonce</a></li>
+              <li><a href="mes-annonces.html">Mes annonces</a></li>
+          </ul>
+      </div>
+      <ul class="navbar hide-sm">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="recherche.html">Recherche</a></li>
+          <li class="active"><a href="ajout.html">Déposer une annonce</a></li>
+          <li><a href="mes-annonces.html">Mes annonces</a></li>
+      </ul>
+
+      <h2>Créer une nouvelle annonce</h2>
+      <form>
+
+        <div class="row">
+          <div class="offset-3 span-5">
+            titre :
+            <input type="text" name="titre" size="40" autofocus>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span-2">
+            Selectionner une image
+            <input type="file" name="img" multiple>
+            Password
+            <input type="password" name="pass">
+          </div>
+          <div class="offset-1 span-5 span-md-8 span-sm-8">
+            Description de l'annonce :
+          <br/>
+            <textarea class="desc-annonce">
+
+            </textarea>
+          </div>
+        </div>
+      </form>
+      <hr>
+      <a class="btn btn-small btn-back" href="visualisation.html">&lt; Visualiser mon annonce</a>
+
+    </div>
+</body>
+</html>

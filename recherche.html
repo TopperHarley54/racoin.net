@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Racoin</title>
+  <link rel="stylesheet" href="css/2sec.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header">
+        <a class="title" href="#">Racoin</a>
+        <a class="subtitle">Le roi de la petite annonce ! :D</a>
+    </div>
+
+
+    <div class="container">
+        <div class="dropdown">
+            <a class="dropdown-title">Menu</a>
+            <ul class="dropdown-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="recherche.html">Recherche</a></li>
+                <li><a href="ajout.html">Déposer une annonce</a></li>
+                <li><a href="mes-annonces.html">Mes annonces</a></li>
+            </ul>
+        </div>
+        <ul class="navbar hide-sm">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="recherche.html">Recherche</a></li>
+            <li><a href="ajout.html">Déposer une annonce</a></li>
+            <li><a href="mes-annonces.html">Mes annonces</a></li>
+        </ul>
+
+
+        <div class="row">
+          <form>
+              <h4>Rechercher une annonce</h4>
+             <p>
+                 <input type="text" name="pseudo" id="pseudo" placeholder="Titre ou description" autofocus/>
+
+                 <input type="password" name="pass" id="pass" placeholder="Department"/>
+
+                 <select name="categorie">
+                      <option selected disabled hidden>Catégorie</option>
+                      <option value="telephone">Téléphone</option>
+                      <option value="voiture">Voiture</option>
+                      <option value="maison">Maison</option>
+                 </select>
+                 <br/>
+                 Prix entre
+                 <input class="input-number" type="number" name="min-prix" placeholder="0" size="4">
+                 et
+                 <input class="input-number" type="number" name="max-prix" placeholder="9999" size="4">
+                  <br/>
+                 <input class="btn btn-flat" type="submit" value="Rechercher" />
+             </p>
+          </form>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="span-3">
+                <h4>Organise par</h4>
+            </div>
+            <div class="span-3 offset-2 offset-sm-1">
+                <select class="select-tri" name="prix">
+                    <option selected disabled hidden>Prix</option>
+                    <option value="croissant">prix croissant</option>
+                    <option value="decroissant">prix décroissant</option>
+               </select>
+               <select class="select-tri" name="date">
+                    <option selected disabled hidden>Date</option>
+                    <option value="telephone">plus récentes</option>
+                    <option value="voiture">plus anciennes</option>
+               </select>
+           </div>
+       </div>
+
+        <div class="row annonce">
+          <div class="span-2">
+              <a href="annonce.html"><img src="http://www.montmartre-site.com/images/sacre-coeur1.jpg"></a>
+          </div>
+          <div class="span-6">
+              <h4><a href="annonce.html">Splendide chalet de 850m²</a></h4>
+              <p class="description-annonce">
+                  Sur le camping de la pelouse, dans un cadre naturel, calme et reposant, venez découvrir le chalet "Zéphir". Le chalet est d'une capacité de 32m2 (1/5 personnes). Situé sur le camping, vous pourrez profiter de la piscine, du restaurant et diverses activités.
+              </p>
+          </div>
+      </div>
+
+
+        <div class="row annonce">
+            <div class="span-2">
+                <img src="http://media.topito.com/wp-content/uploads/2010/02/voiture_cher_007.jpg">
+            </div>
+            <div class="span-6">
+                <h4><a href="#">Ford fiesta d'occasion</a></h4>
+                <p class="description-annonce">
+                    Ford fiesta s 1,6 tdci 16v phase 2
+5cv
+90 cv
+premiere mise en circulation 2007
+ct ok fait en septembre 2015
+
+la voiture est très propre int et ext
+facture dispo depuis mise en circulation double des clé
+                </p>
+            </div>
+        </div>
+
+        <div class="row annonce">
+            <div class="span-2">
+                <img src="http://www.annuaire-inverse-france.com/s/i/portable-voiture.jpg">
+            </div>
+            <div class="span-6">
+                <h4><a href="#">Superbe Iphone5 comme neuf !</a></h4>
+                <p class="description-annonce">
+                    Bonjour vends iPhone 5 c'est bleu turquoise 32 Gig à neuf, je le vends aussi avec plusieurs coques , opérateur SFR , il a la dernière mise à jour de chez iPhone , les écouteurs et le chargeur sont bien là il manque juste le Cable de chargement qui lui était defectueux. Le prix n'est pas excessivement cher pour un 32 gigas et il est vraiment très neuf sans aucune rayure ni fissures et tous les boutons marche parfaitement bien.
+                </p>
+            </div>
+        </div>
+
+        <div class="row annonce">
+            <div class="span-2">
+                <img src="http://www.swiss-miss.com/wp-content/uploads/legacy/photos/uncategorized/2007/12/11/picture_1.png">
+            </div>
+            <div class="span-6">
+                <h4><a href="#">Toyota Yaris</a></h4>
+                <p class="description-annonce">
+                    Vidange, filtres et plaquettes neuf. "La distribution est une chaîne".
+
+Contrôle technique OK
+
+Faible consommation, 5 ch fiscaux (87 cv)
+                </p>
+            </div>
+        </div>
+
+        <center>
+            <ul class="pagination">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+            </ul>
+        </center>
+
+
+    </div>
+</body>
+</html>
